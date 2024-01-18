@@ -1,0 +1,23 @@
+Docker commands:
+
+#Login
+docker login
+  
+#create a local docker image:
+docker build -t sbprojpoc .
+
+#list all docker images
+docker images
+
+#tag docker image
+docker tag sbprojpoc <dockerusername>/sbprojpoc
+
+#push image to docker hub
+docker push <dockerusername>/sbprojpoc
+
+#delete docker images in local
+docker rmi sbprojpoc <dockerusername>/sbprojpoc
+
+#docker pull images and run
+docker run -p <port on local machine>:<port of docker image where we pull from> <dockerusername>/sbprojpoc
+
