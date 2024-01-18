@@ -1,0 +1,16 @@
+GitHub(gh) commands:
+
+#install github cli in mac:
+brew install gh
+
+#login - (use https):
+gh auth login
+
+#check auth status:
+gh auth status
+
+#clone repo:
+gh repo clone avaibhav51/demo-mvn-sb-docker-poc
+
+#logout gh cli:
+gh auth logout
