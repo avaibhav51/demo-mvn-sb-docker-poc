@@ -1,0 +1,5 @@
+
+# maven clean install without compiling tests
+mvn clean install -Dmaven.test.skip=true
+
+
