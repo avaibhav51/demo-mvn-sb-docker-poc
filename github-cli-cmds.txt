@@ -14,3 +14,27 @@ gh repo clone avaibhav51/demo-mvn-sb-docker-poc
 
 #logout gh cli:
 gh auth logout
+
+
+--------------
+
+
+git commands(in-use):
+
+git clone https://github.com/avaibhav51/demo-mvn-sb-docker-poc/    
+git branch
+git fetch --all
+git checkout develop
+git pull origin develop
+git status
+git gui
+git commit --author="FirstName LastName <email@gmail.com>" -m "commit message"
+git log
+git push
+
+
+
+#not sure if this worked
+#git config credential.helper store 
+
+
