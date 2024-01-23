@@ -8,7 +8,7 @@ public class NewController {
  
 	@GetMapping("/welcome")
 	public String getData() {
-		return "this is demo poc for springbootapp. will connect this with docker and kube";
+		return "This is demo poc for springbootapp, connected with docker.";
 	}
 	
 }
